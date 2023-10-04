@@ -291,4 +291,8 @@ span {
     .ev1{
      height: fit-content;
     } 
+    .evpic{
+      height: 100px;
+      width: 100px;
+    }
   }
