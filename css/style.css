@@ -168,7 +168,7 @@ span {
 
 .evpic {
   width: 90%;
-  height: auto;
+  height: 100%;
   float: right;
   filter: white; /*IE5+ */
   -webkit-filter: grayscale(1); /*Webkit Nightlies & Chrome Canary */
@@ -285,7 +285,7 @@ span {
     .hero-logo{
       height: 80px;
     }
-    .evpic{
-      padding: 0;
-    }
+    .ev1{
+     height: fit-content;
+    } 
   }
