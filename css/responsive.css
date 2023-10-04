@@ -2,12 +2,13 @@
   list-style: none;
   display: flex;
   align-items: center;
+  float: left;
 }
 li {
   position: relative;
 }
 li ul {
-  position: relative;
+  position: absolute;
   z-index: 2;
   display: none;
 }
@@ -22,5 +23,5 @@ li:hover ul {
 }
 .list-menu{
     float: right;
-    padding: ;
+    display: none;
 }
